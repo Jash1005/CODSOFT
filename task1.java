@@ -4,7 +4,7 @@ class task1 {
 
     public static int[] repeat(Scanner sc, int[] score) {
         Random random = new Random();
-        int random_number = random.nextInt(100);
+        int random_number = random.nextInt(100) + 1;
         System.out.println(random_number);
         int guess, k = 0;
 
